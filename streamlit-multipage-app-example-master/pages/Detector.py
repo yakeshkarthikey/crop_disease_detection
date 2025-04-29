@@ -5,10 +5,10 @@ import numpy as np
 import time 
 from skimage.io import imread,imsave
 # st.title("Crop Disease Detector")
-st.write("You have entered", st.session_state["my_input"])
-x = st.session_state["my_input"]
+# st.write("You have entered", st.session_state["my_input"])
+x = True
 
-print(x)
+# print(x)
 if x:
     def start(file,o):
         img_file_buffer = file
